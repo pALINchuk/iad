@@ -1,0 +1,22 @@
+# Практика ІАД — те, що потрібне для виконання робіт.
+# Перевірено на Python 3.11; точні версії, на яких усе прогналося, —
+# teacher/prototypes/versions-lock.txt.
+#
+#     pip install -r requirements.txt
+
+numpy
+pandas>=2.2
+pyarrow          # pandas читає й пише .parquet тільки з ним
+scikit-learn
+scipy
+matplotlib
+jupyterlab       # ноутбуки робіт; у Colab уже є
+
+# Л2 — карта Кохонена й асоціативні правила
+minisom
+mlxtend>=0.25    # association_rules отримав обов'язковий num_itemsets
+
+# КП
+scikit-fuzzy
+networkx         # потрібен skfuzzy.control; окремо не ставиться
+pygad
