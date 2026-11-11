@@ -3,3 +3,4 @@ venv/
 .DS_Store
 __pycache__/
 l1/data/
+l2/data/
